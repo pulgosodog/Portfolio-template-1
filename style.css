@@ -12,7 +12,7 @@ nav {
   margin-top: 4%;
 }
 
-header {
+.intro {
   height: 100vh;
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ h1 {
   line-height: 12.85vw;
 }
 
-header p {
+section.intro p {
   font-size: 4.26vw;
   color: #344563;
 }
