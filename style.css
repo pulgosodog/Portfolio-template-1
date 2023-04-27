@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    color: #6070ff;
+    font-size: small;
+    margin-top: 4%;
+}
+
+header {
+    height: 100vh;
+    background-image: url("images/header-shapes\ mobile@2x.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0.032vw;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 10.6vw;
+    color: #172b4d;
+    padding-top: 30.400vw;
+    margin: 0;
+    line-height: 12.85vw;
+}
+
+header p {
+    font-size: 4.26vw;
+    color: #344563;
+}
+
+.lets-connect {
+    display: flex;
+    flex-direction: column;
+    column-gap: 5VW;
+}
+
+div.lets-connect p {
+    color: #7f8Cff;
+    font-weight: 500;
+    font-size: 4.26vw;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-icons {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    gap: 5vw;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+#menu-button {
+    width: 13%;
+}
+
+.margin {
+    margin: 0 6.4vw;
+}
