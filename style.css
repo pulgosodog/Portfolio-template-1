@@ -186,8 +186,11 @@ button {
   border-radius: 8px;
   color: #396df2;
   background-color: #fff;
+}
+
+.div-button {
   margin-top: 2.78vw;
-  margin-bottom: 3.48vw;
+  margin-bottom: 5vw;
 }
 
 .margin {
