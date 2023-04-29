@@ -28,7 +28,7 @@ nav {
   align-items: flex-start;
   row-gap: 0.032vw;
   background-color: #fff;
-  border-bottom-left-radius: 80px;
+  border-bottom-left-radius: 21.3vw;
 }
 
 h1 {
@@ -56,7 +56,10 @@ div.lets-connect p {
   color: #7f8cff;
   font-weight: 500;
   font-size: 4.26vw;
+  margin-top: 3.2vw;
   margin-bottom: 3.2vw;
+  padding-top: 0;
+  padding-bottom: 0;
 
 }
 
@@ -94,7 +97,7 @@ ul {
   display: flex;
   flex-direction: column;
   border: 1px solid #DFE1E6;
-  border-radius: 16px;
+  border-radius: 4.26vw;
   margin-bottom: 21.6vw;
 }
 
@@ -160,12 +163,8 @@ h4 {
 
 .categories li {
   background-color: #ebebff;
-  border-radius: 8px;
+  border-radius: 2.13vw;
   margin: 0 1.75vw;
-}
-
-li.html {
-  margin-left: 0;
 }
 
 .categories p {
@@ -175,8 +174,14 @@ li.html {
   margin: 0;
 }
 
+.about-myself {
+  border-top-right-radius: 21.3vw;
+  background-color: #fff;
+}
+
 .about-myself h3 {
   margin-top: 0;
+  padding-top: 30.4vw;
   margin-bottom: 0;
 }
 
@@ -185,23 +190,13 @@ li.html {
   font-style: normal;
   font-weight: 400;
   font-size: 4.26vw;
-  line-height: 24px;
+  line-height: 6.4vw;
   color: #344563;
-  margin-top: 0;
-  margin-bottom: 3.2vw;
+  margin-top: 3.2vw;
+  margin-bottom: 0;
 }
 
-.about-myself p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 5.3vw;
-  line-height: 24px;
-  padding-top: 3.2vw;
-  padding-bottom: 3.2vw; 
-}
-
-ul.abilities li{
+li.abilities {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -211,9 +206,34 @@ ul.abilities li{
   border-color: #dfe1e6;
 }
 
-img.next{
+img.next {
   width: 7vw;
   height: 7vw;
+  margin-right: 11.2vw;
+}
+
+li.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 4vw;
+  border-style: none;
+  width: 80.8vw;
+  height: 17.6vw;
+  background-color: #f7f7f9;
+  border-radius: 2.13vw;
+  margin-top: 3.2vw;
+  margin-bottom: 3.2vw;
+}
+
+li.languages img {
+  margin-left: 3.2vw;
+}
+
+li.languages p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 button {
