@@ -40,6 +40,20 @@ h1 {
   line-height: 12.85vw;
 }
 
+.categories p {
+  font-size: 3.2vw;
+  color: #6070ff;
+  padding: 0 3.2vw;
+  margin: 0;
+}
+
+.card p {
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 6.4vw;
+  color: #344563;
+}
+
 section.intro p {
   margin-top: 3.2vw;
   font-size: 4.26vw;
@@ -60,7 +74,6 @@ div.lets-connect p {
   margin-bottom: 3.2vw;
   padding-top: 0;
   padding-bottom: 0;
-
 }
 
 ul {
@@ -96,7 +109,7 @@ ul {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 4.26vw;
   margin-bottom: 21.6vw;
 }
@@ -126,7 +139,6 @@ h3 {
 
 h4 {
   font-weight: 600;
-  margin-left: 0;
   font-size: 3.46vw;
   color: #344563;
   margin: 0;
@@ -146,14 +158,6 @@ h4 {
   margin: 2.13vw 1.7vw;
 }
 
-.card p {
-  font-size: 4vw;
-  font-weight: 400;
-  line-height: 6.4vw;
-  color: #344563;
-  line-height: 6.4vw;
-}
-
 .categories {
   display: flex;
   flex-direction: row;
@@ -165,13 +169,6 @@ h4 {
   background-color: #ebebff;
   border-radius: 2.13vw;
   margin: 0 1.75vw;
-}
-
-.categories p {
-  font-size: 3.2vw;
-  color: #6070ff;
-  padding: 0 3.2vw;
-  margin: 0;
 }
 
 .about-myself {
@@ -186,7 +183,6 @@ h4 {
 }
 
 .about-myself p.bio {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 4.26vw;
@@ -237,7 +233,6 @@ li.languages p {
 }
 
 button {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 4.5vw;
