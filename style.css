@@ -1,6 +1,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  background-color: #f7f7f9;
+}
+
+header {
+  background-color: #fff;
 }
 
 nav {
@@ -16,10 +21,14 @@ nav {
   height: 100vh;
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 0.032vw;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 h1 {
@@ -68,6 +77,117 @@ ul {
 
 #menu-button {
   width: 13%;
+}
+
+.works {
+  grid-template-rows: repeat(4, 76.8vw);
+  grid-template-columns: 87vw;
+  grid-row-gap: 12.25vw;
+  margin: 31vw 6.4vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  margin-bottom: 21.6vw;
+}
+
+.card-item {
+  margin: 2% 4%;
+}
+
+.card-img {
+  width: 93%;
+  align-self: center;
+  margin-top: 4%;
+}
+
+h3 {
+  font-size: 8.53vw;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.company {
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+h4 {
+  font-weight: 600;
+  margin-left: 0;
+  font-size: 3.46vw;
+  color: #344563;
+  margin: 0;
+}
+
+.canopy {
+  margin-left: 0;
+}
+
+.company li p {
+  font-size: 3.46vw;
+  color: #7a869a;
+  margin: 0;
+}
+
+.company li {
+  margin: 2.13vw 1.7vw;
+}
+
+.card p {
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 6.4vw;
+  color: #344563;
+  line-height: 6.4vw;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.categories li {
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin: 0 1.75vw;
+}
+
+li.html {
+  margin-left: 0;
+}
+
+.categories p {
+  font-size: 3.2vw;
+  color: #6070ff;
+  padding: 0 3.2vw;
+  margin: 0;
+}
+
+button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 3.34vw;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 4.5vw 3vw;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: #fff;
+  margin-top: 2.78vw;
+  margin-bottom: 3.48vw;
 }
 
 .margin {
