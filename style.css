@@ -12,9 +12,9 @@ nav {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #6070ff;
   font-size: small;
-  margin-top: 4%;
 }
 
 .intro {
@@ -35,12 +35,13 @@ h1 {
   font-weight: 700;
   font-size: 10.6vw;
   color: #172b4d;
-  padding-top: 30.4vw;
+  padding-top: 40vw;
   margin: 0;
   line-height: 12.85vw;
 }
 
 section.intro p {
+  margin-top: 3.2vw;
   font-size: 4.26vw;
   color: #344563;
 }
@@ -55,7 +56,8 @@ div.lets-connect p {
   color: #7f8cff;
   font-weight: 500;
   font-size: 4.26vw;
-  margin-bottom: 0;
+  margin-bottom: 3.2vw;
+
 }
 
 ul {
@@ -65,6 +67,7 @@ ul {
 
 .social-icons {
   margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
   align-items: end;
@@ -77,6 +80,7 @@ ul {
 
 #menu-button {
   width: 13%;
+  height: 13%;
 }
 
 .works {
@@ -171,6 +175,47 @@ li.html {
   margin: 0;
 }
 
+.about-myself h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-myself p.bio {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.26vw;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 0;
+  margin-bottom: 3.2vw;
+}
+
+.about-myself p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.3vw;
+  line-height: 24px;
+  padding-top: 3.2vw;
+  padding-bottom: 3.2vw; 
+}
+
+ul.abilities li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: none none solid;
+  border-width: 0.3vw;
+  border-color: #dfe1e6;
+}
+
+img.next{
+  width: 7vw;
+  height: 7vw;
+}
+
 button {
   font-family: 'Poppins';
   font-style: normal;
@@ -194,5 +239,6 @@ button {
 }
 
 .margin {
-  margin: 0 6.4vw;
+  margin-left: 6.4vw;
+  margin-right: 6.4vw;
 }
