@@ -10,7 +10,6 @@ header {
 
 nav {
   font-weight: 700;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   color: #6070ff;
@@ -23,7 +22,6 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 0.032vw;
@@ -61,8 +59,6 @@ section.intro p {
 }
 
 .lets-connect {
-  display: flex;
-  flex-direction: column;
   column-gap: 5vw;
 }
 
@@ -84,7 +80,6 @@ ul {
 .social-icons {
   margin-top: 0;
   margin-bottom: 0;
-  display: flex;
   justify-content: flex-start;
   align-items: end;
   gap: 5vw;
@@ -107,8 +102,6 @@ ul {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 4.26vw;
   margin-bottom: 21.6vw;
@@ -132,7 +125,6 @@ h3 {
 
 .company {
   margin-top: 0;
-  display: flex;
   justify-content: flex-start;
   align-items: baseline;
 }
@@ -159,8 +151,6 @@ h4 {
 }
 
 .categories {
-  display: flex;
-  flex-direction: row;
   justify-content: start;
   align-items: baseline;
 }
@@ -193,8 +183,6 @@ h4 {
 }
 
 li.abilities {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   border-style: none none solid;
@@ -209,8 +197,6 @@ img.next {
 }
 
 li.languages {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   column-gap: 4vw;
@@ -232,13 +218,21 @@ li.languages p {
   margin-bottom: 0;
 }
 
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 button {
   font-style: normal;
   font-weight: 500;
   font-size: 4.5vw;
   line-height: 3.34vw;
   letter-spacing: 0.03em;
-  display: flex;
   align-items: center;
   text-align: center;
   padding: 4.5vw 3vw;
