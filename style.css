@@ -1,44 +1,64 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  background-color: #f7f7f9;
+}
+
+header {
+  background-color: #fff;
 }
 
 nav {
   font-weight: 700;
-  display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #6070ff;
   font-size: small;
-  margin-top: 4%;
 }
 
 .intro {
   height: 100vh;
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
-  display: flex;
+  background-size: contain;
+  background-position: center;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 0.032vw;
+  background-color: #fff;
+  border-bottom-left-radius: 21.3vw;
 }
 
 h1 {
   font-weight: 700;
   font-size: 10.6vw;
   color: #172b4d;
-  padding-top: 30.4vw;
+  padding-top: 40vw;
   margin: 0;
   line-height: 12.85vw;
 }
 
+.categories p {
+  font-size: 3.2vw;
+  color: #6070ff;
+  padding: 1.067vw 3.2vw;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 6.4vw;
+  color: #344563;
+}
+
 section.intro p {
+  margin-top: 3.2vw;
   font-size: 4.26vw;
   color: #344563;
 }
 
 .lets-connect {
-  display: flex;
-  flex-direction: column;
   column-gap: 5vw;
 }
 
@@ -46,7 +66,10 @@ div.lets-connect p {
   color: #7f8cff;
   font-weight: 500;
   font-size: 4.26vw;
-  margin-bottom: 0;
+  margin-top: 3.2vw;
+  margin-bottom: 3.2vw;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 ul {
@@ -56,7 +79,7 @@ ul {
 
 .social-icons {
   margin-top: 0;
-  display: flex;
+  margin-bottom: 0;
   justify-content: flex-start;
   align-items: end;
   gap: 5vw;
@@ -68,8 +91,184 @@ ul {
 
 #menu-button {
   width: 13%;
+  height: 13%;
+}
+
+.works {
+  grid-template-rows: repeat(4, 76.8vw);
+  grid-template-columns: 87vw;
+  grid-row-gap: 12.25vw;
+  margin: 31vw 6.4vw;
+}
+
+.card {
+  border: 1px solid #dfe1e6;
+  border-radius: 4.26vw;
+  margin-bottom: 21.6vw;
+}
+
+.card-item {
+  margin: 2% 4%;
+}
+
+.card-img {
+  width: 93%;
+  align-self: center;
+  margin-top: 4%;
+}
+
+h3 {
+  font-size: 8.53vw;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.company {
+  margin-top: 0;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 3.467vw;
+  color: #344563;
+  margin: 0;
+}
+
+.canopy {
+  margin-left: 0;
+}
+
+.company li p {
+  font-size: 3.46vw;
+  color: #7a869a;
+  margin: 0;
+}
+
+.company li {
+  margin: 2.13vw 1.7vw;
+}
+
+.categories {
+  justify-content: start;
+  align-items: baseline;
+}
+
+.categories li {
+  background-color: #ebebff;
+  border-radius: 2.13vw;
+  margin: 0 1.75vw;
+}
+
+li.html {
+  margin-left: 0;
+}
+
+.about-myself {
+  border-top-right-radius: 21.3vw;
+  background-color: #fff;
+}
+
+.about-myself h3 {
+  margin-top: 0;
+  padding-top: 30.4vw;
+  margin-bottom: 0;
+}
+
+.about-myself p.bio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.26vw;
+  line-height: 6.4vw;
+  color: #344563;
+  margin-top: 3.2vw;
+  margin-bottom: 0;
+}
+
+li.abilities {
+  justify-content: space-between;
+  align-items: center;
+  border-style: none none solid;
+  border-width: 0.3vw;
+  border-color: #dfe1e6;
+}
+
+img.next {
+  width: 7vw;
+  height: 7vw;
+  margin-right: 11.2vw;
+}
+
+li.languages {
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 4vw;
+  border-style: none;
+  width: 80.8vw;
+  height: 17.6vw;
+  background-color: #f7f7f9;
+  border-radius: 2.13vw;
+  margin-top: 3.2vw;
+  margin-bottom: 3.2vw;
+}
+
+li.languages img {
+  margin-left: 3.2vw;
+}
+
+li.languages p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5vw;
+  line-height: 3.34vw;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  padding: 4.5vw 3vw;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  background-color: transparent;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border-color: #c1c7d0;
+}
+
+.div-button {
+  margin-top: 2.78vw;
+  margin-bottom: 5vw;
 }
 
 .margin {
-  margin: 0 6.4vw;
+  margin-left: 6.4vw;
+  margin-right: 6.4vw;
 }
