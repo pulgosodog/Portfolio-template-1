@@ -41,11 +41,11 @@ h1 {
 .categories p {
   font-size: 3.2vw;
   color: #6070ff;
-  padding: 0 3.2vw;
+  padding: 1.067vw 3.2vw;
   margin: 0;
 }
 
-.card p {
+.card-description {
   font-size: 4vw;
   font-weight: 400;
   line-height: 6.4vw;
@@ -161,6 +161,10 @@ h4 {
   margin: 0 1.75vw;
 }
 
+li.html {
+  margin-left: 0px;
+}
+
 .about-myself {
   border-top-right-radius: 21.3vw;
   background-color: #fff;
@@ -239,7 +243,7 @@ button {
   border: 1px solid #396df2;
   border-radius: 8px;
   color: #396df2;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 button:hover {
