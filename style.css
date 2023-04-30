@@ -242,6 +242,23 @@ button {
   background-color: #fff;
 }
 
+button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+button:disabled {
+  background-color: transparent;
+  color: #5e6c84;
+  border-color: #c1c7d0;
+}
+
 .div-button {
   margin-top: 2.78vw;
   margin-bottom: 5vw;
