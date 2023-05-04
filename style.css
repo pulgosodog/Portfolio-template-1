@@ -22,7 +22,6 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  flex-direction: column;
   align-items: flex-start;
   row-gap: 0.032vw;
   background-color: #fff;
@@ -73,6 +72,7 @@ div.lets-connect p {
 }
 
 ul {
+  margin: 0;
   list-style: none;
   padding-left: 0;
 }
@@ -168,6 +168,7 @@ li.html {
 .about-myself {
   border-top-right-radius: 21.3vw;
   background-color: #fff;
+  padding-bottom: 47.16vw;
 }
 
 .about-myself h3 {
@@ -184,6 +185,10 @@ li.html {
   color: #344563;
   margin-top: 3.2vw;
   margin-bottom: 0;
+}
+
+.about-myself button {
+  margin-bottom: 16vw;
 }
 
 li.abilities {
@@ -220,6 +225,61 @@ li.languages img {
 li.languages p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.contact-form {
+  background-color: #fff;
+}
+
+.blue-border {
+  border-top-left-radius: 21.3vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 6.4vw;
+  align-items: center;
+  background-color: #6070FF;
+  background-image: url(images/contact\ form\ shapes-mobile@2x.png);
+}
+
+.contact-form h2 {
+  color: #fff;
+  font-size: 10.6vw;
+  margin-top: 27.467vw;
+}
+
+.contact-form p {
+  color: #ebebff;
+  font-size: 5.3vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 7.467vw;
+  text-align: center;
+  margin-top: 3.2vw;
+  margin-bottom: 13.86vw;
+}
+
+.contact-form input {
+  width: 87.2vw;
+  height: 12.8vw;
+  background: #fff;
+  border: 0.267vw solid #cfd8dc;
+  border-radius: 2.13vw;
+  font-size: 4.53vw;
+  margin-bottom: 5.3vw;
+}
+
+.contact-form textarea {
+  width: 87.2vw;
+  height: 45.3vw;
+  border: 0.267vw solid #cfd8dc;
+  border-radius: 2.13vw;
+  font-size: 4vw;
+  margin-bottom: 5.867vw;
+}
+
+.contact-form button {
+  background-color: #fff;
+  margin-bottom: 11.73vw;
 }
 
 .flex-row {
@@ -261,6 +321,10 @@ button:disabled {
   background-color: transparent;
   color: #5e6c84;
   border-color: #c1c7d0;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
 }
 
 .div-button {
