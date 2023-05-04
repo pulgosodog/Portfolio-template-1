@@ -282,6 +282,12 @@ li.languages p {
   margin-bottom: 11.73vw;
 }
 
+.contact-form hr {
+  width: 35.73vw;
+  border: 1.3vw solid #0D151E;
+  border-radius: 2.667vw;
+}
+
 .flex-row {
   display: flex;
 }
