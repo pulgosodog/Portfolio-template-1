@@ -16,20 +16,29 @@
 
 <body>
     <header>
-        <nav class="margin flex-row">
+        <nav class="margin flex-row nav-query">
             <h2>My logo</h2>
-            <img id="menu-button" src="images/Enabled.png" alt="Menu Button">
+            <ul class="desktop-menu flex-row">
+                <li>
+                    <p>Portfolio</p>
+                </li>
+                <li>
+                    <p>About</p>
+                </li>
+                <li>
+                    <p>Contact</p>
+                </li>
+            </ul>
+            <button id="menu-button"></button>
         </nav>
     </header>
     <section class="intro flex-column">
-        <h1 class="margin">I'm Gabriel. <br> Glad to see <br> you!</h1>
-        <p class="margin">I’m a software developer! I can help you build a product , feature or website Look through
-            some of my
-            work
-            and experience! If you like what you see and have a project you need coded, don’t hesitate to contact
-            me.
+        <h1 class="margin h1-query intro-margin">I'm Gabriel. <br>Glad to see you!</h1>
+        <p class="margin intro-margin description">I’m a software developer! I can help you build a product , feature or website
+            Look through some of my work and experience! If you like what you see and have a project you need coded,
+            don’t hesitate to contact me.
         </p>
-        <div class="lets-connect margin flex-column">
+        <div class="lets-connect margin flex-column intro-margin">
             <p>LET'S CONNECT</p>
             <ul class="social-icons flex-row">
                 <li><a href="https://twitter.com/"><img class="social-icon" src="images/twitter.png"
@@ -66,7 +75,8 @@
                     <p>2015</p>
                 </li>
             </ul>
-            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or
+                sign-ups required.
             </p>
             <ul class="categories card-item flex-row">
                 <li class="html">
@@ -99,7 +109,8 @@
                     <p>2015</p>
                 </li>
             </ul>
-            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or
+                sign-ups required.
             </p>
             <ul class="categories card-item flex-row">
                 <li class="html">
@@ -166,7 +177,8 @@
                     <p>2015</p>
                 </li>
             </ul>
-            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or
+                sign-ups required.
             </p>
             <ul class="categories card-item flex-row">
                 <li class="html">
@@ -235,11 +247,12 @@
     </section>
     <section class="contact-form">
         <div class="blue-border flex-column">
-        <h2 class="margin">Contact me</h2>
-        <p class="margin">If you have an application you are interested in developing, a feature that you need built or
-            a project that needs coding.
-            I’d love to help with it!</p>
-            <form class="margin" id="survey-form"   action="https://formspree.io/f/mayzvpoz" method="post">
+            <h2 class="margin">Contact me</h2>
+            <p class="margin">If you have an application you are interested in developing, a feature that you need built
+                or
+                a project that needs coding.
+                I’d love to help with it!</p>
+            <form class="margin" id="survey-form" action="https://formspree.io/f/mayzvpoz" method="post">
                 <input type="text" id="fname" name="name" maxlength="30" required placeholder="Lorem Ipsum"><br>
                 <input type="email" id="email" required placeholder="loremipsum@gmail.com"><br>
                 <textarea maxlength="500" rows="4" cols="50" required

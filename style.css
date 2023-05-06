@@ -11,12 +11,38 @@ header {
 }
 
 nav {
-  font-weight: 700;
   justify-content: space-between;
   align-items: center;
   color: #6070ff;
-  font-size: small;
 }
+
+#menu-button {
+  background-image: url(images/Union.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 4.8vw;
+  height: 3.2vw;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 0;
+}
+
+.desktop-menu {
+  visibility: hidden;
+  position: absolute;
+  gap: 1.25vw;
+  color: #344563;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.042vw;
+  line-height: 1.389vw;
+}
+
 
 .intro {
   background-image: url("images/header-shapes\ mobile@2x.png");
@@ -36,6 +62,7 @@ h1 {
   padding-top: 40vw;
   margin: 0;
   line-height: 12.85vw;
+  max-width: 11ch;
 }
 
 .categories p {
@@ -83,10 +110,6 @@ div.lets-connect p {
   padding-bottom: 0;
 }
 
-.social-icons img {
-  width: 5.067vw;
-}
-
 ul {
   margin: 0;
   list-style: none;
@@ -107,11 +130,6 @@ ul {
 
 .intro .lets-connect {
   margin-bottom: 36.267vw;
-}
-
-#menu-button {
-  width: 13%;
-  height: 13%;
 }
 
 .works {
@@ -303,7 +321,7 @@ li.languages p {
 
 .contact-form h2 {
   color: #fff;
-  font-size: 10.6vw;
+  font-size: 4.8vw;
   margin-top: 27.467vw;
 }
 
@@ -358,4 +376,74 @@ textarea:focus::placeholder {
 .margin {
   margin-left: 6.4vw;
   margin-right: 6.4vw;
+}
+
+@media (min-width: 768px) {
+
+  .nav-query {
+    margin: 0 10.764vw 0;
+  }
+
+  h2 {
+    font-size: 1.25vw;
+    margin: 0;
+    padding-top: 1.806vw;
+    padding-bottom: 1.806vw;
+  }
+
+  .desktop-menu {
+    visibility: visible;
+    position: static;
+  }
+
+  #menu-button {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .intro {
+    background-image: url(images/Header\ bg@2x.png);
+    background-position: center;
+    border-bottom-left-radius: 10vw;
+  }
+
+  .intro-margin {
+    margin-left: 18.056vw;
+  }
+
+  .h1-query {
+    font-size: 3.3vw;
+    line-height: 4.167vw;
+    letter-spacing: 0.026vw;
+    padding-top: 20vw;
+    max-width: none;
+    margin-left: 18.056vw;
+  }
+
+  section.intro .description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    max-width: 74ch;
+    margin-top: 0.83vw;
+    margin-bottom: 0.83vw;
+  }
+
+  div.lets-connect p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 0;
+    margin-bottom: 0.972vw;
+  }
+
+ .social-icons {
+  gap:1.389vw;
+ }
+
+  .intro .lets-connect {
+    margin-bottom: 17.708vw;
+  }
 }
