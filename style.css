@@ -155,6 +155,16 @@ ul {
   margin-top: 4%;
 }
 
+.desktop-card-img{
+  visibility: hidden;
+  position: absolute;
+}
+
+.desktop-card-img-left {
+  visibility: hidden;
+  position: absolute;
+}
+
 h3 {
   font-size: 8.53vw;
   font-weight: 700;
@@ -196,7 +206,7 @@ h4 {
 .categories li {
   background-color: #ebebff;
   border-radius: 2.13vw;
-  margin: 0 1.75vw;
+  margin-right: 1.75vw;
 }
 
 li.html {
@@ -439,11 +449,119 @@ textarea:focus::placeholder {
     margin-bottom: 0.972vw;
   }
 
- .social-icons {
-  gap:1.389vw;
- }
+  .social-icons {
+    gap: 1.389vw;
+  }
 
   .intro .lets-connect {
     margin-bottom: 17.708vw;
   }
+
+  .works {
+    margin: 9.861vw;
+  }
+
+  .card {
+    border-radius: 1.667vw;
+  }
+
+  .card-left {
+    justify-content: space-between;
+  }
+
+  .card-item {
+    margin: 0;
+  }
+
+  .card-img {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .desktop-card-img {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 3.194vw 1.667vw 1.667vw
+  }
+
+  .desktop-card-img-left {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 1.667vw 1.667vw 3.194vw;
+  }
+
+  div.card {
+    flex-direction: row;
+  }
+
+  .card-text {
+    margin-top: 3.3vw;
+  }
+
+  .card-left .card-text {
+    margin-left: 3.3vw;
+  }
+
+  .card h3 {
+    font-size: 2.778vw;
+    margin-bottom: 1.389vw;
+  }
+
+  .company{
+    margin-bottom: 2.361vw;
+  }
+
+  .company li {
+    margin: 0 0.83vw 0 0;
+  }
+
+  .card .company h4 {
+    font-size: 1.25vw;
+  }
+
+  .card .company p {
+    font-size: 1.25vw;
+  }
+
+  .card-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin-bottom: 1.94vw;
+    width: 50ch;
+  }
+
+  .categories li {
+    border-radius: 0.556vw;
+    margin-right: 0.556vw;
+  }
+
+  .categories p {
+    font-size: 0.83vw;
+    padding: 0.278vw 0.83vw;
+  }
+
+  .div-button {
+    margin: 3.056vw 0;
+  }
+
+  button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+    align-items: center;
+    text-align: center;
+    padding: 0.83vw;
+    border: 1px solid #396df2;
+    border-radius: 0.556vw;
+    color: #396df2;
+    background-color: transparent;
+  }
+
 }
