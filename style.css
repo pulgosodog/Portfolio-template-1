@@ -564,7 +564,7 @@ textarea:focus::placeholder {
     display: flex;
     flex-direction: row;
     padding-bottom: 11.528vw;
-    border-top-right-radius: 10vw; 
+    border-top-right-radius: 10vw;
   }
 
   .about-myself-bio-connect {
@@ -588,7 +588,11 @@ textarea:focus::placeholder {
     margin: 0;
   }
 
-  .about-myself  .div-button {
+  .div-button {
+    margin: 3.056vw 0;
+  }
+
+  .about-myself .div-button {
     margin-top: 2.361vw;
   }
 
@@ -642,15 +646,18 @@ textarea:focus::placeholder {
     margin: 0;
   }
 
+  .contact-form p {
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    width: 39.514vw;
+    margin: 0 0 1.66vw 0;
+  }
+
   .about-myself ul li.languages p {
     font-size: 1.389vw;
     line-height: 1.389vw;
     padding: 1.1vw 0.83vw 1.389vw 0.83vw;
     margin: 0;
-  }
-
-  .div-button {
-    margin: 3.056vw 0;
   }
 
   .blue-border {
@@ -663,18 +670,11 @@ textarea:focus::placeholder {
     padding: 0;
   }
 
-  .contact-form p {
-    font-size: 1.389vw;
-    line-height: 1.94vw;
-    width: 39.514vw;
-    margin: 0 0 1.66vw 0;
-  }
-
   .contact-form form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:0;
+    gap: 0;
   }
 
   .contact-form input {
@@ -685,7 +685,7 @@ textarea:focus::placeholder {
     border-radius: 0.139vw;
     font-size: 1.181vw;
     margin-bottom: 1.875vw;
-}
+  }
 
   .contact-form textarea {
     width: 31.042vw;
@@ -696,10 +696,6 @@ textarea:focus::placeholder {
     font-size: 1.181vw;
     margin-bottom: 1.875vw;
     line-height: 1.667vw;
-  }
-
-  .contact-form div button {
-    width: 9.861vw;
   }
 
   button {
@@ -716,4 +712,7 @@ textarea:focus::placeholder {
     background-color: transparent;
   }
 
+  .contact-form div button {
+    width: 9.861vw;
+  }
 }
