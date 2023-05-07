@@ -43,7 +43,6 @@ nav {
   line-height: 1.389vw;
 }
 
-
 .intro {
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
@@ -232,6 +231,11 @@ li.html {
   margin-bottom: 0;
 }
 
+li.languages p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .about-myself ul li p {
   font-size: 4vw;
   font-style: normal;
@@ -305,11 +309,6 @@ li.languages {
 
 li.languages img {
   margin-left: 3.2vw;
-}
-
-li.languages p {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .contact-form {
@@ -390,8 +389,6 @@ textarea:focus::placeholder {
   position: absolute;
 }
 
-/******************* MEDIA QUERY *******************/
-
 @media (min-width: 768px) {
 
   .nav-query {
@@ -443,6 +440,18 @@ textarea:focus::placeholder {
     max-width: 74ch;
     margin-top: 0.83vw;
     margin-bottom: 0.83vw;
+  }
+
+  .categories p {
+    font-size: 0.83vw;
+    padding: 0.278vw 0.83vw;
+  }
+
+  .contact-form p {
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    width: 39.514vw;
+    margin: 0 0 1.66vw 0;
   }
 
   div.lets-connect p {
@@ -497,7 +506,7 @@ textarea:focus::placeholder {
     height: 31.1vw;
     visibility: visible;
     position: static;
-    margin: 1.667vw 3.194vw 1.667vw 1.667vw
+    margin: 1.667vw 3.194vw 1.667vw 1.667vw;
   }
 
   .desktop-card-img-left {
@@ -537,6 +546,15 @@ textarea:focus::placeholder {
     font-size: 1.25vw;
   }
 
+  .about-myself ul li p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.389vw;
+    line-height: 1.667vw;
+    padding: 1.667vw 0;
+    margin: 0;
+  }
+
   .card .company p {
     font-size: 1.25vw;
   }
@@ -553,11 +571,6 @@ textarea:focus::placeholder {
   .categories li {
     border-radius: 0.556vw;
     margin-right: 0.556vw;
-  }
-
-  .categories p {
-    font-size: 0.83vw;
-    padding: 0.278vw 0.83vw;
   }
 
   .about-myself {
@@ -612,15 +625,6 @@ textarea:focus::placeholder {
     padding-bottom: 0;
   }
 
-  .about-myself ul li p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.389vw;
-    line-height: 1.667vw;
-    padding: 1.667vw 0;
-    margin: 0;
-  }
-
   img.next {
     width: 1.5vw;
     height: 1.5vw;
@@ -644,13 +648,6 @@ textarea:focus::placeholder {
     width: 3.3vw;
     padding: 0.83vw 4.306vw 1.1vw 0.83vw;
     margin: 0;
-  }
-
-  .contact-form p {
-    font-size: 1.389vw;
-    line-height: 1.94vw;
-    width: 39.514vw;
-    margin: 0 0 1.66vw 0;
   }
 
   .about-myself ul li.languages p {
