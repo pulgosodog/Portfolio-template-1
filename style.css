@@ -390,7 +390,6 @@ textarea:focus::placeholder {
 }
 
 @media (min-width: 768px) {
-
   .nav-query {
     margin: 0 10.764vw 0;
   }
@@ -432,7 +431,6 @@ textarea:focus::placeholder {
   }
 
   section.intro .description {
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 1.389vw;
