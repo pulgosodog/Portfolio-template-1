@@ -155,7 +155,7 @@ ul {
   margin-top: 4%;
 }
 
-.desktop-card-img{
+.desktop-card-img {
   visibility: hidden;
   position: absolute;
 }
@@ -389,6 +389,8 @@ textarea:focus::placeholder {
   position: absolute;
 }
 
+/******************* MEDIA QUERY *******************/
+
 @media (min-width: 768px) {
 
   .nav-query {
@@ -471,7 +473,7 @@ textarea:focus::placeholder {
     position: absolute;
   }
 
-  .desk-show{
+  .desk-show {
     visibility: visible;
     position: static;
   }
@@ -522,7 +524,7 @@ textarea:focus::placeholder {
     margin-bottom: 1.389vw;
   }
 
-  .company{
+  .company {
     margin-bottom: 2.361vw;
   }
 
@@ -555,6 +557,95 @@ textarea:focus::placeholder {
   .categories p {
     font-size: 0.83vw;
     padding: 0.278vw 0.83vw;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11.528vw;
+    border-top-right-radius: 10vw; 
+  }
+
+  .about-myself-bio-connect {
+    margin: 11.528vw 0 0 9.931vw;
+  }
+
+  .about-myself h3 {
+    font-size: 2.778vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .about-myself p.bio {
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .about-myself .lets-connect {
+    margin: 0;
+  }
+
+  .about-myself  .div-button {
+    margin-top: 2.361vw;
+  }
+
+  .about-myself-abilities ul.margin {
+    margin: 9.861vw 9.861vw 0 2.5vw;
+  }
+
+  li.abilities {
+    width: 47.5vw;
+  }
+
+  .about-myself ul li.first {
+    border: none;
+  }
+
+  .about-myself ul li.first p {
+    padding-bottom: 0;
+  }
+
+  .about-myself ul li p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.389vw;
+    line-height: 1.667vw;
+    padding: 1.667vw 0;
+    margin: 0;
+  }
+
+  img.next {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 2vw;
+  }
+
+  .languages-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li.languages {
+    flex-direction: column;
+    align-items: start;
+    width: auto;
+    height: auto;
+    margin-right: 0.833vw;
+  }
+
+  li.languages img {
+    width: 3.3vw;
+    padding: 0.83vw 4.306vw 1.1vw 0.83vw;
+    margin: 0;
+  }
+
+  .about-myself ul li.languages p {
+    font-size: 1.389vw;
+    line-height: 1.389vw;
+    padding: 1.1vw 0.83vw 1.389vw 0.83vw;
+    margin: 0;
   }
 
   .div-button {
