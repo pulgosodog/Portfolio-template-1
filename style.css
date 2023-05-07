@@ -184,10 +184,6 @@ h4 {
   margin: 0;
 }
 
-.canopy {
-  margin-left: 0;
-}
-
 .company li p {
   font-size: 3.46vw;
   color: #7a869a;
@@ -388,6 +384,11 @@ textarea:focus::placeholder {
   margin-right: 6.4vw;
 }
 
+.mobile-hide {
+  visibility: hidden;
+  position: absolute;
+}
+
 @media (min-width: 768px) {
 
   .nav-query {
@@ -463,6 +464,16 @@ textarea:focus::placeholder {
 
   .card {
     border-radius: 1.667vw;
+  }
+
+  .desk-hide {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .desk-show{
+    visibility: visible;
+    position: static;
   }
 
   .card-left {
