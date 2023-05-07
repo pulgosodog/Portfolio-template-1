@@ -143,6 +143,7 @@ ul {
   border: 1px solid #dfe1e6;
   border-radius: 4.26vw;
   margin-bottom: 21.6vw;
+  background-color: #fff;
 }
 
 .card-item {
@@ -650,6 +651,55 @@ textarea:focus::placeholder {
 
   .div-button {
     margin: 3.056vw 0;
+  }
+
+  .blue-border {
+    background-image: url(images/contact\ form\ background\ shapes@2x.png);
+  }
+
+  .contact-form h2 {
+    font-size: 2.778vw;
+    margin: 9.861vw 22.2vw 0.83vw;
+    padding: 0;
+  }
+
+  .contact-form p {
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    width: 39.514vw;
+    margin: 0 0 1.66vw 0;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0;
+  }
+
+  .contact-form input {
+    width: 31.042vw;
+    height: 3.333vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+    border-radius: 0.139vw;
+    font-size: 1.181vw;
+    margin-bottom: 1.875vw;
+}
+
+  .contact-form textarea {
+    width: 31.042vw;
+    height: 11.806vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+    border-radius: 0.139vw;
+    font-size: 1.181vw;
+    margin-bottom: 1.875vw;
+    line-height: 1.667vw;
+  }
+
+  .contact-form div button {
+    width: 9.861vw;
   }
 
   button {
