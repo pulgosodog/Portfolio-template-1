@@ -59,6 +59,8 @@ This first project will precisely replicate one of the portfolio templates provi
 
 
 - **Use of Flexbox**
+- **Use of Grid**
+- **Use of Media Queries*
 - **Mobile first**
 - **Responsiveness**
 
@@ -129,7 +131,7 @@ The project can be deployed to a hosting service.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-Finish build of the landing page of the mobile version.
+No planed future features for now.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
