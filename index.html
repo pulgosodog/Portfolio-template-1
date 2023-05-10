@@ -16,20 +16,30 @@
 
 <body>
     <header>
-        <nav class="margin flex-row">
+        <nav class="margin flex-row nav-query">
             <h2>My logo</h2>
-            <img id="menu-button" src="images/Enabled.png" alt="Menu Button">
+            <ul class="desktop-menu flex-row">
+                <li>
+                    <p>Portfolio</p>
+                </li>
+                <li>
+                    <p>About</p>
+                </li>
+                <li>
+                    <p>Contact</p>
+                </li>
+            </ul>
+            <button id="menu-button"></button>
         </nav>
     </header>
     <section class="intro flex-column">
-        <h1 class="margin">I'm Gabriel. <br> Glad to see <br> you!</h1>
-        <p class="margin">I’m a software developer! I can help you build a product , feature or website Look through
-            some of my
-            work
-            and experience! If you like what you see and have a project you need coded, don’t hesitate to contact
-            me.
+        <h1 class="margin h1-query intro-margin">I'm Gabriel. <br>Glad to see you!</h1>
+        <p class="margin intro-margin description">I’m a software developer! I can help you build a product , feature or
+            website
+            Look through some of my work and experience! If you like what you see and have a project you need coded,
+            don’t hesitate to contact me.
         </p>
-        <div class="lets-connect margin flex-column">
+        <div class="lets-connect margin flex-column intro-margin">
             <p>LET'S CONNECT</p>
             <ul class="social-icons flex-row">
                 <li><a href="https://twitter.com/"><img class="social-icon" src="images/twitter.png"
@@ -49,204 +59,277 @@
     </section>
     <section class="works">
         <div class="card flex-column">
+            <img class="card-img card-item" src="images/Snapshoot Portfolio 2.png" alt="">
+            <img class="desktop-card-img" src="images/Snapshoot Portfolio desk.png" alt="">
+            <div class="card-text">
+                <h3 class="card-item">
+                    Tonic
+                </h3>
+                <ul class="card-item company flex-row">
+                    <li class="canopy">
+                        <h4>CANOPY</h4>
+                    </li>
+                    <li><img src="images/Counter.png"></li>
+                    <li>
+                        <p>Back End Dev</p>
+                    </li>
+                    <li><img src="images/Counter.png"></li>
+                    <li>
+                        <p>2015</p>
+                    </li>
+                </ul>
+                <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or
+                    sign-ups required.
+                </p>
+                <ul class="categories card-item flex-row">
+                    <li class="html">
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                    </li>
+                </ul>
+                <div class="div-button"><button class="card-item flex-row">See project</button></div>
+
+            </div>
+        </div>
+        <div class="card flex-column card-left">
             <img class="card-img card-item" src="images/Snapshoot Portfolio 1.png" alt="">
-            <h3 class="card-item">
-                Tonic
-            </h3>
-            <ul class="card-item company flex-row">
-                <li class="canopy">
-                    <h4>CANOPY</h4>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>Back End Dev</p>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>2015</p>
-                </li>
-            </ul>
-            <p class="card-item">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-            <ul class="categories card-item flex-row">
-                <li class="html">
-                    <p>HTML</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>JavaScript</p>
-                </li>
-            </ul>
-            <div class="div-button"><button class="card-item flex-row">See project</button></div>
+            <div class="card-text">
+                <div>
+                    <h3 class="card-item">
+                        Multi-Post Stories
+                    </h3>
+                    <ul class="card-item company flex-row">
+                        <li class="desk-hide">
+                            <h4>CANOPY</h4>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <h4>FACEBOOK</h4>
+                        </li>
+                        <li><img src="images/Counter.png"></li>
+                        <li class="desk-hide">
+                            <p>Back End Dev</p>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <p>Full Stack Dev</p>
+                        </li>
+                        <li><img src="images/Counter.png"></li>
+                        <li>
+                            <p>2015</p>
+                        </li>
+                    </ul>
+                    <p class="card-item card-description desk-hide">A daily selection of privately personalized reads;
+                        no accounts
+                        or
+                        sign-ups required.
+                    </p>
+                    <p class="card-item card-description desk-show mobile-hide">Experimental content creation feature
+                        that allows users to add to an existing story over the course of a day without spamming their
+                        friends.</p>
+                    <ul class="categories card-item flex-row">
+                        <li class="html">
+                            <p>HTML</p>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <p>Ruby on rails</p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                        </li>
+                    </ul>
+                    <div class="div-button"><button class="card-item flex-row">See project</button></div>
+                </div>
+            </div>
+            <img class="desktop-card-img-left" src="images/Snapshoot Portfolio desk 1.png" alt="">
         </div>
         <div class="card flex-column">
             <img class="card-img card-item" src="images/Snapshoot Portfolio 2.png" alt="">
-            <h3 class="card-item">
-                Multi-Post Stories
-            </h3>
-            <ul class="card-item company flex-row">
-                <li class="canopy">
-                    <h4>CANOPY</h4>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>Back End Dev</p>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>2015</p>
-                </li>
-            </ul>
-            <p class="card-item">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-            <ul class="categories card-item flex-row">
-                <li class="html">
-                    <p>HTML</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>JavaScript</p>
-                </li>
-            </ul>
-            <div class="div-button"><button class="card-item flex-row">See project</button></div>
+            <img class="desktop-card-img" src="images/Snapshoot Portfolio desk 2.png" alt="">
+            <div class="card-text">
+                <h3 class="card-item desk-hide">
+                    Tonic
+                </h3>
+                <h3 class="mobile-hide desk-show">Facebook 360</h3>
+                <ul class="card-item company flex-row">
+                    <li class="desk-hide">
+                        <h4>CANOPY</h4>
+                    </li>
+                    <li class="mobile-hide desk-show">
+                        <h4>FACEBOOK</h4>
+                    </li>
+                    <li><img src="images/Counter.png"></li>
+                    <li class="desk-hide">
+                        <p>Back End Dev</p>
+                    </li>
+                    <li class="mobile-hide desk-show">
+                        <p>Full Stack Dev</p>
+                    </li>
+                    <li><img src="images/Counter.png"></li>
+                    <li>
+                        <p>2015</p>
+                    </li>
+                </ul>
+                <p class="card-item card-description desk-hide">A daily selection of privately personalized reads; no
+                    accounts or
+                    sign-ups required.
+                </p>
+                <p class="card-item card-description desk-show mobile-hide">Exploring the future of media in Facebook's
+                    first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                <ul class="categories card-item flex-row">
+                    <li class="html">
+                        <p>HTML</p>
+                    </li>
+                    <li class="mobile-hide desk-show">
+                        <p>Ruby on rails</p>
+                    </li>
+                    <li>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                    </li>
+                </ul>
+                <div class="div-button"><button class="card-item flex-row">See project</button></div>
+
+            </div>
         </div>
-        <div class="card flex-column">
-            <img class="card-img card-item" src="images/Snapshoot Portfolio 3.png" alt="">
-            <h3 class="card-item">
-                Tonic
-            </h3>
-            <ul class="card-item company flex-row">
-                <li class="canopy">
-                    <h4>CANOPY</h4>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>Back End Dev</p>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>2015</p>
-                </li>
-            </ul>
-            <p class="card-item card-description">A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-            </p>
-            <ul class="categories card-item flex-row">
-                <li class="html">
-                    <p>HTML</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>JavaScript</p>
-                </li>
-            </ul>
-            <div class="div-button"><button class="card-item flex-row">See project</button></div>
+        <div class="card flex-column card-left">
+            <img class="card-img card-item" src="images/Snapshoot Portfolio 1.png" alt="">
+            <div class="card-text">
+                <div>
+                    <h3 class="card-item desk-hide">
+                        Multi-Post Stories
+                    </h3>
+                    <h3 class="mobile-hide desk-show">Uber Navigation</h3>
+                    <ul class="card-item company flex-row">
+                        <li class="desk-hide">
+                            <h4>CANOPY</h4>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <h4>Uber</h4>
+                        </li>
+                        <li><img src="images/Counter.png"></li>
+                        <li class="desk-hide">
+                            <p>Back End Dev</p>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <p> Lead Developer</p>
+                        </li>
+                        <li><img src="images/Counter.png"></li>
+                        <li class="desk-hide">
+                            <p>2015</p>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <p>2018</p>
+                        </li>
+                    </ul>
+                    <p class="card-item card-description desk-hide">A daily selection of privately personalized reads;
+                        no accounts
+                        or
+                        sign-ups required.
+                    </p>
+                    <p class="card-item card-description desk-show mobile-hide">A smart assistant to make driving more
+                        safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                    <ul class="categories card-item flex-row">
+                        <li class="html">
+                            <p>HTML</p>
+                        </li>
+                        <li class="mobile-hide desk-show">
+                            <p>Ruby on rails</p>
+                        </li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                        </li>
+                    </ul>
+                    <div class="div-button"><button class="card-item flex-row">See project</button></div>
+                </div>
+            </div>
+            <img class="desktop-card-img-left" src="images/Snapshoot Portfolio desk 3.png" alt="">
         </div>
-        <div class="card flex-column">
-            <img class="card-img card-item" src="images/Snapshoot Portfolio 4.png" alt="">
-            <h3 class="card-item">
-                Multi-Post Stories
-            </h3>
-            <ul class="card-item company flex-row">
-                <li class="canopy">
-                    <h4>CANOPY</h4>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>Back End Dev</p>
-                </li>
-                <li><img src="images/Counter.png"></li>
-                <li>
-                    <p>2015</p>
-                </li>
-            </ul>
-            <p class="card-item">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-            <ul class="categories card-item flex-row">
-                <li class="html">
-                    <p>css</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>javaScript</p>
-                </li>
-            </ul>
-            <div class="div-button"><button class="card-item flex-row">See project</button></div>
-        </div>
+
     </section>
     <section class="about-myself">
-        <h3 class="margin">About Myself</h3>
-        <p class="margin bio">
-            Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my
-            work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact
-            me.
-        </p>
-        <div class="lets-connect margin flex-column">
-            <p>LET'S CONNECT</p>
-            <ul class="social-icons flex-row">
-                <li><a href="https://twitter.com/"><img class="social-icon" src="images/twitter.png"
-                            alt="Twitter Icon"></a>
+        <div class="about-myself-bio-connect">
+            <h3 class="margin">About Myself</h3>
+            <p class="margin bio">
+                Hello I’m a software developer! I can help you build a product , feature or website. Look through some
+                of my
+                work and experience! If you like what you see and have a project you need coded, don’t hesitate to
+                contact
+                me.
+            </p>
+            <div class="lets-connect margin flex-column">
+                <p>LET'S CONNECT</p>
+                <ul class="social-icons flex-row">
+                    <li><a href="https://twitter.com/"><img class="social-icon" src="images/twitter.png"
+                                alt="Twitter Icon"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/gabriel-yrigoyen-286515264/"><img class="social-icon"
+                                src="images/Linkedin icon.png" alt="Linkedin Icon"></a></li>
+                    <li><a href="https://medium.com/"><img class="social-icon" src="images/medium.png"
+                                alt="Medium Icon"></a>
+                    </li>
+                    <li><a href="https://github.com/pulgosodog"><img class="social-icon" src="images/github.png"
+                                alt="Github Icon"></a></li>
+                    <li><a href="https://www.angellist.com/"><img class="social-icon" src="images/angellist.png"
+                                alt="Angellist icon"></a></li>
+                </ul>
+            </div>
+            <div class="div-button margin"><button class="flex-row">Get my resume</button></div>
+        </div>
+        <div class="about-myself-abilities">
+            <ul class="margin">
+                <li class="abilities flex-row first">
+                    <p>Languages</p><img class="next" src="images/next down.png" alt="clikleable arrow">
                 </li>
-                <li><a href="https://www.linkedin.com/in/gabriel-yrigoyen-286515264/"><img class="social-icon"
-                            src="images/Linkedin icon.png" alt="Linkedin Icon"></a></li>
-                <li><a href="https://medium.com/"><img class="social-icon" src="images/medium.png"
-                            alt="Medium Icon"></a>
+                <ul class="languages-container">
+                    <li class="languages flex-row">
+                        <img src="images/javascript.png" alt="Javascriot icon">
+                        <p>JavaScript</p>
+                    </li>
+                    <li class="languages flex-row">
+                        <img src="images/html.png" alt="Html icon">
+                        <p>HTML</p>
+                    </li>
+                    <li class="languages flex-row">
+                        <img src="images/css.png" alt="CSS icon">
+                        <p>CSS</p>
+                    </li>
+                </ul>
+                <li class="abilities flex-row">
+                    <p>Frameworks</p><img class="next" src="images/next.png" alt="clikleable arrow">
                 </li>
-                <li><a href="https://github.com/pulgosodog"><img class="social-icon" src="images/github.png"
-                            alt="Github Icon"></a></li>
-                <li><a href="https://www.angellist.com/"><img class="social-icon" src="images/angellist.png"
-                            alt="Angellist icon"></a></li>
+                <li class="abilities flex-row">
+                    <p>Skills</p><img class="next" src="images/next.png" alt="clikleable arrow">
+                </li>
             </ul>
         </div>
-        <div class="div-button margin"><button class="flex-row">Get my resume</button></div>
-        <ul class="margin">
-            <li class="abilities flex-row">
-                <p>Languages</p><img class="next" src="images/next down.png" alt="clikleable arrow">
-            </li>
-            <ul>
-                <li class="languages flex-row">
-                    <img src="images/javascript.png" alt="Javascriot icon">
-                    <p>JavaScript</p>
-                </li>
-                <li class="languages flex-row">
-                    <img src="images/html.png" alt="Html icon">
-                    <p>HTML</p>
-                </li>
-                <li class="languages flex-row">
-                    <img src="images/css.png" alt="CSS icon">
-                    <p>CSS</p>
-                </li>
-            </ul>
-            <li class="abilities flex-row">
-                <p>Frameworks</p><img class="next" src="images/next.png" alt="clikleable arrow">
-            </li>
-            <li class="abilities flex-row">
-                <p>Skills</p><img class="next" src="images/next.png" alt="clikleable arrow">
-            </li>
-        </ul>
     </section>
     <section class="contact-form">
         <div class="blue-border flex-column">
-        <h2 class="margin">Contact me</h2>
-        <p class="margin">If you have an application you are interested in developing, a feature that you need built or
-            a project that needs coding.
-            I’d love to help with it!</p>
-            <form class="margin" id="survey-form"   action="https://formspree.io/f/mayzvpoz" method="post">
-                <input type="text" id="fname" name="name" maxlength="30" required placeholder="Lorem Ipsum"><br>
-                <input type="email" id="email" required placeholder="loremipsum@gmail.com"><br>
+            <h2 class="margin">Contact me</h2>
+            <p class="margin">If you have an application you are interested in developing, a feature that you need built
+                or
+                a project that needs coding.
+                I’d love to help with it!</p>
+            <form class="margin flex" id="survey-form" action="https://formspree.io/f/mayzvpoz" method="post">
+                <input type="text" id="fname" name="name" maxlength="30" required placeholder="Lorem Ipsum">
+                <input type="email" id="email" required placeholder="loremipsum@gmail.com">
                 <textarea maxlength="500" rows="4" cols="50" required
                     placeholder="Write your message here..."></textarea>
-                <button type="submit">Get in touch</button>
+                <div><button type="submit">Get in touch</button></div>
             </form>
-            <hr>
+            <hr class="desk-hide">
         </div>
     </section>
 </body>

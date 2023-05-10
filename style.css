@@ -2,6 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background-color: #f7f7f9;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -9,15 +11,39 @@ header {
 }
 
 nav {
-  font-weight: 700;
   justify-content: space-between;
   align-items: center;
   color: #6070ff;
-  font-size: small;
+}
+
+#menu-button {
+  background-image: url(images/Union.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 4.8vw;
+  height: 3.2vw;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border-radius: 0;
+}
+
+.desktop-menu {
+  visibility: hidden;
+  position: absolute;
+  gap: 1.25vw;
+  color: #344563;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.042vw;
+  line-height: 1.389vw;
 }
 
 .intro {
-  height: 100vh;
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -35,6 +61,7 @@ h1 {
   padding-top: 40vw;
   margin: 0;
   line-height: 12.85vw;
+  max-width: 11ch;
 }
 
 .categories p {
@@ -100,22 +127,22 @@ ul {
   opacity: 0.8;
 }
 
-#menu-button {
-  width: 13%;
-  height: 13%;
+.intro .lets-connect {
+  margin-bottom: 36.267vw;
 }
 
 .works {
   grid-template-rows: repeat(4, 76.8vw);
   grid-template-columns: 87vw;
   grid-row-gap: 12.25vw;
-  margin: 31vw 6.4vw;
+  margin: 30.4vw 6.4vw;
 }
 
 .card {
   border: 1px solid #dfe1e6;
   border-radius: 4.26vw;
   margin-bottom: 21.6vw;
+  background-color: #fff;
 }
 
 .card-item {
@@ -123,9 +150,24 @@ ul {
 }
 
 .card-img {
-  width: 93%;
   align-self: center;
   margin-top: 4%;
+  width: 78.667vw;
+  height: 58.667vw;
+}
+
+.desktop-card-img {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.desktop-card-img-left {
+  visibility: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
 }
 
 h3 {
@@ -147,10 +189,6 @@ h4 {
   margin: 0;
 }
 
-.canopy {
-  margin-left: 0;
-}
-
 .company li p {
   font-size: 3.46vw;
   color: #7a869a;
@@ -169,7 +207,7 @@ h4 {
 .categories li {
   background-color: #ebebff;
   border-radius: 2.13vw;
-  margin: 0 1.75vw;
+  margin-right: 1.75vw;
 }
 
 li.html {
@@ -196,6 +234,19 @@ li.html {
   color: #344563;
   margin-top: 3.2vw;
   margin-bottom: 0;
+}
+
+li.languages p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about-myself ul li p {
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 5.3vw;
+  color: #253858;
 }
 
 button {
@@ -263,11 +314,7 @@ li.languages {
 
 li.languages img {
   margin-left: 3.2vw;
-}
-
-li.languages p {
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 12.8vw;
 }
 
 .contact-form {
@@ -286,7 +333,7 @@ li.languages p {
 
 .contact-form h2 {
   color: #fff;
-  font-size: 10.6vw;
+  font-size: 4.8vw;
   margin-top: 27.467vw;
 }
 
@@ -341,4 +388,332 @@ textarea:focus::placeholder {
 .margin {
   margin-left: 6.4vw;
   margin-right: 6.4vw;
+}
+
+.mobile-hide {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media (min-width: 768px) {
+  .nav-query {
+    margin: 0 10.764vw 0;
+  }
+
+  h2 {
+    font-size: 1.25vw;
+    margin: 0;
+    padding-top: 1.806vw;
+    padding-bottom: 1.806vw;
+  }
+
+  .desktop-menu {
+    visibility: visible;
+    position: static;
+  }
+
+  #menu-button {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .intro {
+    background-image: url(images/Header\ bg@2x.png);
+    background-position: center;
+    border-bottom-left-radius: 10vw;
+  }
+
+  .intro-margin {
+    margin-left: 18.056vw;
+  }
+
+  .h1-query {
+    font-size: 3.3vw;
+    line-height: 4.167vw;
+    letter-spacing: 0.026vw;
+    padding-top: 20vw;
+    max-width: none;
+    margin-left: 18.056vw;
+  }
+
+  section.intro .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    max-width: 74ch;
+    margin-top: 0.83vw;
+    margin-bottom: 0.83vw;
+  }
+
+  .categories p {
+    font-size: 0.83vw;
+    padding: 0.278vw 0.83vw;
+  }
+
+  .contact-form p {
+    font-size: 1.389vw;
+    line-height: 1.94vw;
+    width: 39.514vw;
+    margin: 0 0 1.66vw 0;
+  }
+
+  div.lets-connect p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    margin-top: 0;
+    margin-bottom: 0.972vw;
+  }
+
+  .social-icons {
+    gap: 1.389vw;
+  }
+
+  .intro .lets-connect {
+    margin-bottom: 17.708vw;
+  }
+
+  .works {
+    margin: 9.861vw;
+  }
+
+  .card {
+    border-radius: 1.667vw;
+  }
+
+  .desk-hide {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .desk-show {
+    visibility: visible;
+    position: static;
+  }
+
+  .card-left {
+    justify-content: space-between;
+  }
+
+  .card-item {
+    margin: 0;
+  }
+
+  .card-img {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .desktop-card-img {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 3.194vw 1.667vw 1.667vw;
+  }
+
+  .desktop-card-img-left {
+    width: 38.472vw;
+    height: 31.1vw;
+    visibility: visible;
+    position: static;
+    margin: 1.667vw 1.667vw 1.667vw 3.194vw;
+  }
+
+  div.card {
+    flex-direction: row;
+  }
+
+  .card-text {
+    margin-top: 3.3vw;
+  }
+
+  .card-left .card-text {
+    margin-left: 3.3vw;
+  }
+
+  .card h3 {
+    font-size: 2.778vw;
+    margin-bottom: 1.389vw;
+  }
+
+  .company {
+    margin-bottom: 2.361vw;
+  }
+
+  .company li {
+    margin: 0 0.83vw 0 0;
+  }
+
+  .card .company h4 {
+    font-size: 1.25vw;
+  }
+
+  .about-myself ul li p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.389vw;
+    line-height: 1.667vw;
+    padding: 1.667vw 0;
+    margin: 0;
+  }
+
+  .card .company p {
+    font-size: 1.25vw;
+  }
+
+  .card-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin-bottom: 1.94vw;
+    width: 50ch;
+  }
+
+  .categories li {
+    border-radius: 0.556vw;
+    margin-right: 0.556vw;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 11.528vw;
+    border-top-right-radius: 10vw;
+  }
+
+  .about-myself-bio-connect {
+    margin: 11.528vw 0 0 9.931vw;
+  }
+
+  .about-myself h3 {
+    font-size: 2.778vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .about-myself p.bio {
+    font-size: 1.1vw;
+    line-height: 1.667vw;
+    margin: 0;
+    padding: 0 0 0.83vw 0;
+  }
+
+  .about-myself .lets-connect {
+    margin: 0;
+  }
+
+  .div-button {
+    margin: 3.056vw 0;
+  }
+
+  .about-myself .div-button {
+    margin-top: 2.361vw;
+  }
+
+  .about-myself-abilities ul.margin {
+    margin: 9.861vw 9.861vw 0 2.5vw;
+  }
+
+  li.abilities {
+    width: 47.5vw;
+  }
+
+  .about-myself ul li.first {
+    border: none;
+  }
+
+  .about-myself ul li.first p {
+    padding-bottom: 0;
+  }
+
+  img.next {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-right: 2vw;
+  }
+
+  .languages-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  li.languages {
+    flex-direction: column;
+    align-items: start;
+    width: auto;
+    height: auto;
+    margin-right: 0.833vw;
+  }
+
+  li.languages img {
+    width: 3.3vw;
+    padding: 0.83vw 4.306vw 1.1vw 0.83vw;
+    margin: 0;
+  }
+
+  .about-myself ul li.languages p {
+    font-size: 1.389vw;
+    line-height: 1.389vw;
+    padding: 1.1vw 0.83vw 1.389vw 0.83vw;
+    margin: 0;
+  }
+
+  .blue-border {
+    background-image: url(images/contact\ form\ background\ shapes@2x.png);
+  }
+
+  .contact-form h2 {
+    font-size: 2.778vw;
+    margin: 9.861vw 22.2vw 0.83vw;
+    padding: 0;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .contact-form input {
+    width: 31.042vw;
+    height: 3.333vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+    border-radius: 0.139vw;
+    font-size: 1.181vw;
+    margin-bottom: 1.875vw;
+  }
+
+  .contact-form textarea {
+    width: 31.042vw;
+    height: 11.806vw;
+    background: #fff;
+    border: 0.267vw solid #cfd8dc;
+    border-radius: 0.139vw;
+    font-size: 1.181vw;
+    margin-bottom: 1.875vw;
+    line-height: 1.667vw;
+  }
+
+  button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.181vw;
+    line-height: 1.667vw;
+    align-items: center;
+    text-align: center;
+    padding: 0.83vw;
+    border: 1px solid #396df2;
+    border-radius: 0.556vw;
+    color: #396df2;
+    background-color: transparent;
+  }
+
+  .contact-form div button {
+    width: 9.861vw;
+  }
 }
