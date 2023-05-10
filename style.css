@@ -152,6 +152,8 @@ ul {
 .card-img {
   align-self: center;
   margin-top: 4%;
+  width: 78.667vw;
+  height: 58.667vw;
 }
 
 .desktop-card-img {
@@ -312,6 +314,7 @@ li.languages {
 
 li.languages img {
   margin-left: 3.2vw;
+  width: 12.800vw;
 }
 
 .contact-form {
