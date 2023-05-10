@@ -60,7 +60,7 @@ This first project will precisely replicate one of the portfolio templates provi
 
 - **Use of Flexbox**
 - **Use of Grid**
-- **Use of Media Queries*
+- **Use of Media Queries**
 - **Mobile first**
 - **Responsiveness**
 
