@@ -262,6 +262,8 @@ button {
   border-radius: 8px;
   color: #396df2;
   background-color: transparent;
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 0.5s;
 }
 
 button:hover {
@@ -271,6 +273,7 @@ button:hover {
 }
 
 button:active {
+  transition-duration:  0ms;
   color: #fff;
   background: #2230d2;
 }
@@ -456,6 +459,7 @@ textarea:focus::placeholder {
     line-height: 1.94vw;
     width: 39.514vw;
     margin: 0 0 1.66vw 0;
+    transition-property: letter-spacing;
   }
 
   div.lets-connect p {
@@ -511,6 +515,8 @@ textarea:focus::placeholder {
     visibility: visible;
     position: static;
     margin: 1.667vw 3.194vw 1.667vw 1.667vw;
+    transition-duration: 2s;
+    transition-property: transform;
   }
 
   .desktop-card-img-left {
@@ -518,7 +524,9 @@ textarea:focus::placeholder {
     height: 31.1vw;
     visibility: visible;
     position: static;
-    margin: 1.667vw 1.667vw 1.667vw 3.194vw;
+    margin: 1.667vw 1.667vw 1.667vw 0;
+    transition-duration: 2s;
+    transition-property: transform;
   }
 
   div.card {
@@ -697,6 +705,10 @@ textarea:focus::placeholder {
     font-size: 1.181vw;
     margin-bottom: 1.875vw;
     line-height: 1.667vw;
+  }
+
+  .desktop-card-img:hover,.desktop-card-img-left:hover {
+    transform: scale(1.05);
   }
 
   button {
