@@ -459,6 +459,7 @@ textarea:focus::placeholder {
     line-height: 1.94vw;
     width: 39.514vw;
     margin: 0 0 1.66vw 0;
+    transition-duration: 1s;
     transition-property: letter-spacing;
   }
 
@@ -709,6 +710,10 @@ textarea:focus::placeholder {
 
   .desktop-card-img:hover,.desktop-card-img-left:hover {
     transform: scale(1.05);
+  }
+
+  .contact-form p:hover {
+    letter-spacing: 0.05vw;
   }
 
   button {
