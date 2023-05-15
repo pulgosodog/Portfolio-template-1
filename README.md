@@ -71,7 +71,7 @@ This first project will precisely replicate one of the portfolio templates provi
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-### (<a href="https://github.com/pulgosodog/Portfolio-template-1/issues/6">Live Build</a>)
+### <a href="https://pulgosodog.github.io/Portfolio-template-1/">Live Build</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
