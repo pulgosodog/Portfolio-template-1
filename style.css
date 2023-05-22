@@ -485,6 +485,7 @@ textarea:focus::placeholder {
 
   .card {
     border-radius: 1.667vw;
+    margin-bottom: 9.861vw;
   }
 
   .desk-hide {
@@ -508,6 +509,7 @@ textarea:focus::placeholder {
   .card-img {
     visibility: hidden;
     position: absolute;
+    width: 0;
   }
 
   .desktop-card-img {
