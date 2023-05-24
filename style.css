@@ -16,6 +16,21 @@ nav {
   color: #6070ff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 768px) {
+  #phone-menu {
+    left: 0;
+  }
+
+  #phone-menu li p {
+    margin: 0 0 10.667vw;
+  }
+}
+
 #menu-button {
   background-image: url(images/Union.png);
   background-repeat: no-repeat;
@@ -35,12 +50,6 @@ nav {
 .desktop-menu {
   visibility: hidden;
   position: absolute;
-  gap: 1.25vw;
-  color: #344563;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.042vw;
-  line-height: 1.389vw;
 }
 
 .intro {
@@ -413,6 +422,12 @@ textarea:focus::placeholder {
   .desktop-menu {
     visibility: visible;
     position: static;
+    gap: 1.25vw;
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 1.389vw;
   }
 
   #menu-button {
