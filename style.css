@@ -53,24 +53,6 @@ a {
   position: absolute;
 }
 
-/* .phone-menu {
-  position: fixed;
-  top: 106px;
-  left: 26px;
-  visibility: visible;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  flex-direction: column;
-  color: #fff;
-}
-
-.phone-menu p {
-  margin: 0 0 40px;
-  mix-blend-mode:normal;
-} */
-
 .intro {
   background-image: url("images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
