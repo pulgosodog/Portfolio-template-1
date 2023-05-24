@@ -430,8 +430,6 @@ textarea:focus::placeholder {
     line-height: 1.389vw;
   }
   
-  
-
   #menu-button {
     visibility: hidden;
     position: absolute;
