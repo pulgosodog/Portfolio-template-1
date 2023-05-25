@@ -211,12 +211,14 @@ h4 {
 .categories {
   justify-content: start;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .categories li {
   background-color: #ebebff;
   border-radius: 2.13vw;
   margin-right: 1.75vw;
+  margin-bottom: 1.75vw
 }
 
 li.html {

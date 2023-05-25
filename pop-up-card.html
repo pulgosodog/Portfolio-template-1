@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pop.css">
+    <title>pop up card</title>
+</head>
+<body>
+    <div class="body">
+    <div id="pop-up-card">
+        <h3 class="card-item">${project.name}</h3>
+        <ul class="card-item company flex-row">
+          <li class="canopy">
+            <h4>Tonic</h4>
+          </li>
+          <li><img src="images/Counter.png"></li>
+          <li>
+            <p>${project.company.position}</p>
+          </li>
+          <li><img src="images/Counter.png"></li>
+          <li>
+            <p>${project.company.date}</p>
+          </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
