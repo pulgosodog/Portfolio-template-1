@@ -43,7 +43,7 @@ var uberNavigation = new projectContructor(
     {
         name: "Uber",
         position: "Lead Developer",
-        date: "Lead Developer"
+        date: "2018"
     },
     "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     ["HTML", "Ruby on rails", "CSS", "JavaScript"]
@@ -101,7 +101,7 @@ function generateProjectCard(project) {
     else {
         htmlTemplate = `
         <div class="card flex-column card-left">
-            <img class="card-img card-item" src="images/Snapshoot Portfolio 1.png" alt="">
+            <img class="card-img card-item" src="${project.image}" alt="">
             <div class="card-text">
             <h3 class="card-item">${project.name}</h3>
             <ul class="card-item company flex-row">
@@ -125,7 +125,7 @@ function generateProjectCard(project) {
               <button class="card-item flex-row">See project</button>
             </div>
             </div>
-            <img class="desktop-card-img-left" src="images/Snapshoot Portfolio desk 1.png" alt="">
+            <img class="desktop-card-img-left" src="${project.image}" alt="">
         </div>
       `;
         left = true
