@@ -145,7 +145,7 @@
     margin-top: 1.458vw;
   }
 
-  .pop-up-card button {
+  .pop-up-card .button-container button {
     padding: 0.634vh;
   }
 }
