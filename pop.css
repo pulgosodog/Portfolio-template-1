@@ -1,0 +1,162 @@
+.pop-up-background {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.pop-up-card {
+  border: 1px solid #dfe1e6;
+  border-radius: 4.26vw;
+  background-color: #fff;
+  width: 91.46vw;
+  overflow: auto;
+}
+
+.pop-up-card div.top {
+  justify-content: space-between;
+}
+
+.pop-up-card h3 {
+  font-size: 2rem;
+  margin-top: 4.8vw;
+  margin-bottom: 0;
+}
+
+.quit-button {
+  background-image: url(images/quit\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 8vw 8vw 0 0;
+  width: 0.75rem;
+  height: 0.75rem;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.pop-up-card ul.company {
+  margin: 5.867vw 5.3vw;
+}
+
+.pop-up-card .categories p {
+  font-size: 0.75rem;
+}
+
+.pop-up-card .company li {
+  margin: 0 3.2vw 0 0;
+}
+
+.pop-up-card .company li p {
+  font-size: 0.813rem;
+}
+
+.pop-up-desk-layout .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-up-img {
+  align-self: center;
+  width: 90%;
+}
+
+.pop-up-card hr {
+  border: 1px solid #ebecf0;
+  align-self: center;
+  width: 90%;
+  margin: 0;
+}
+
+.button-container {
+  justify-content: space-around;
+}
+
+.pop-up-card .div-button {
+  margin-top: 3.038vh;
+}
+
+.pop-up-card .button-container button {
+  padding: 1.701vh;
+}
+
+.button-icon {
+  margin: 0 0.625rem;
+  height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .pop-up-card {
+    border-radius: 1.1vw;
+    width: 80.278vw;
+    height: 80vh;
+  }
+
+  .quit-button {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 2.639vw 2.639vw 0 0;
+  }
+
+  .pop-up-card h3 {
+    font-size: 2rem;
+    margin: 1.667vw 1.667vw 0;
+  }
+
+  .pop-up-card ul.company {
+    margin: 1.1vw 1.667vw 2.5vw;
+  }
+
+  .pop-up-card .company li {
+    margin: 0 0.833vw 0 0;
+  }
+
+  .image-container {
+    align-self: center;
+    width: 76.94vw;
+    height: 40.694vw;
+    overflow: hidden;
+  }
+
+  .pop-up-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .pop-up-desk-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4.097vw 1.667vw 1.667vw;
+  }
+
+  .pop-up-desk-layout .right {
+    width: 20.694vw;
+  }
+
+  .pop-up-desk-layout .categories li {
+    margin-bottom: 1.75vw;
+  }
+
+  .pop-up-desk-layout p.card-description {
+    width: 54.028vw;
+  }
+
+  .pop-up-card .div-button {
+    margin-top: 1.458vw;
+  }
+
+  .pop-up-card .button-container button {
+    padding: 0.634vh;
+  }
+}
