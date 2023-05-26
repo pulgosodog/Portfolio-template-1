@@ -45,16 +45,16 @@
   margin: 5.867vw 5.3vw;
 }
 
+.pop-up-card .categories p {
+    font-size: 0.75rem;
+  }
+
 .pop-up-card .company li {
   margin: 0 3.2vw 0 0;
 }
 
 .pop-up-card .company li p {
   font-size: 0.813rem;
-}
-
-.pop-up-card .categories p {
-  font-size: 0.75rem;
 }
 
 .pop-up-desk-layout .right {
