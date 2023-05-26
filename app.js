@@ -141,7 +141,7 @@ function generateProjectCard(project) {
 
 var worksCardsButtons;
 var quitPopUp;
-var worksPopUpSection = document.getElementById("works-pop-up")
+var worksPopUpSection = document.getElementById("works-pop-up");
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       quitPopUp = document.querySelector(".pop-up-card .quit-button");
       quitPopUp.addEventListener("click", () => {
-        worksPopUpSection.innerHTML="";
+        worksPopUpSection.innerHTML = "";
       });
     }
     );
@@ -183,44 +183,52 @@ function worksPopUp(project) {
 
   let htmlTemplate = "";
   htmlTemplate = `
-      <div class="pop-up-background">
-      <div class="pop-up-card flex-column">
-      <button class="quit-button">
-      </button>
+  <div class="pop-up-background">
+  <div class="pop-up-card flex-column">
+      <div class="top flex-row">
           <h3 class="card-item">
-          ${project.name}
+              ${project.name}
           </h3>
-          <ul class="card-item company flex-row">
-            <li class="canopy">
+          <button class="quit-button">
+          </button>
+      </div>
+
+      <ul class="card-item company flex-row">
+          <li class="canopy">
               <h4>${project.company.name}</h4>
-            </li>
-            <li><img src="images/Counter.png"></li>
-            <li>
+          </li>
+          <li><img src="images/Counter.png"></li>
+          <li>
               <p>${project.company.position}</p>
-            </li>
-            <li><img src="images/Counter.png"></li>
-            <li>
+          </li>
+          <li><img src="images/Counter.png"></li>
+          <li>
               <p>${project.company.date}</p>
-            </li>
-          </ul>
-          <img class="card-item pop-up-img" src="${project.image}" alt="">
-  <div class="pop-up-desk-layout">
+          </li>
+      </ul>
+      <div class="image-container">
+      <img class="card-item pop-up-img" src="${project.image}" alt="">
+</div>
+
+      <div class="pop-up-desk-layout">
           <p class="card-description card-item">
-          ${project.description}
+              ${project.description}
           </p>
           <div class="right">
-          <ul class=" card-item categories flex-row">
-          ${generateTechnologyList(project.technology)}
-          </ul>
-          <hr>
-          <div class="flex-row button-container">
-            <div class="div-button"><button class="flex-row">See live <img class="button-icon" src="images/See live icon.png"> </button></div>
-            <div class="div-button"><button class="flex-row">See source <img class="button-icon" src="images/See source icon.png"></button></div>
+              <ul class=" card-item categories flex-row">
+                  ${generateTechnologyList(project.technology)}
+              </ul>
+              <hr>
+              <div class="flex-row button-container">
+                  <div class="div-button"><button class="flex-row">See live <img class="button-icon"
+                              src="images/See live icon.png"> </button></div>
+                  <div class="div-button"><button class="flex-row">See source <img class="button-icon"
+                              src="images/See source icon.png"></button></div>
+              </div>
           </div>
-        </div>
       </div>
-        </div>
-      </div>`;
+  </div>
+</div>`;
   return htmlTemplate;
 }
 
