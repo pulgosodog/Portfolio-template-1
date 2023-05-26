@@ -381,6 +381,17 @@ li.languages img {
   border-radius: 2.667vw;
 }
 
+.invalid-input {
+  border-color: #d04228;
+  border-width: 0.2rem;
+}
+
+.feedback {
+  color: white;
+  font-size: 0.8rem;
+  text-shadow: 2px 2px 2px red;
+}
+
 .flex-row {
   display: flex;
 }
