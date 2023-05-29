@@ -18,3 +18,28 @@ form.addEventListener('submit', (event) => {
         emailInput.style.borderWidth = '';
     }
 });
+
+
+function storeFormData (){
+var formData = {
+    name: document.getElementById('fname').value,
+    email: document.getElementById('email').value,
+    message: document.querySelector('textarea').value
+};
+localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+var formInputs = document.querySelectorAll('#survey-form input, #survey-form textarea');
+formInputs.forEach(function (input) {
+    input.addEventListener('input', storeFormData);
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    var formData = localStorage.getItem('formData');
+    if (formData) {
+        formData = JSON.parse(formData);
+        document.getElementById('fname').value = formData.name || '';
+        document.getElementById('email').value = formData.email || '';
+        document.querySelector('textarea').value = formData.message || '';
+    }
+});
