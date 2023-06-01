@@ -120,7 +120,7 @@ function generateProjectCard(project) {
               <li><img src="images/Counter.png"></li>
               <li>
                 <p>${project.company.date}</p>
-              </li>
+              </li>thi
             </ul>
             <p class="card-item card-description">${project.description}</p>
             <ul class="categories card-item flex-row">
