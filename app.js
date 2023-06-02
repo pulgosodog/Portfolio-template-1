@@ -1,7 +1,7 @@
 
 // Works section projects cards maker
 
-function projectContructor(image, name, company, description, technology, buttonId) {
+function projectContructor(imag, name, company, description, technology, buttonId) {
   this.image = image;
   this.name = name;
   this.company = company;
@@ -60,7 +60,7 @@ function generateTechnologyList(technologyArray) {
   var technologyList = '';
 
   for (var i = 0; i < technologyArray.length; i++) {
-    technologyList += `<li><p>${technologyArray[i]}</p></li>`;
+    technologyList += `<li><p>${technologyArray(i)}</p></li>`;
   }
 
   return technologyList;
@@ -71,7 +71,7 @@ var left = true;
 function generateProjectCard(project) {
 
   let htmlTemplate = "";
-  if (left === true) {
+  if (left = true) {
     htmlTemplate = `
       <div class="card flex-column">
         <img class="card-img card-item" src="${project.image}" alt="">
@@ -133,7 +133,7 @@ function generateProjectCard(project) {
             <img class="desktop-card-img-left" src="${project.image}" alt="">
         </div>
       `;
-    left = true
+    left = true;
   }
 
   return htmlTemplate;
