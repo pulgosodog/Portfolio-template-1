@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Portfolio Project Website<a name="about-project"></a>
 
 This is a portfolio website, this is the 1st project of the portafolio, as I go through the Microverse curriculum materials I'm going to complete several small projects that will combine to create a portfolio website.
 This first project will precisely replicate one of the portfolio templates provided. However, later on during the Microverse journey it will be customized and improved it to make it more unique, as well as include more of my own projects in the portfolio.
